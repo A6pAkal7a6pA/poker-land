@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="styles.css">
+	<title>RoadTrip</title>
+</head>
+<body>
+	<div class="field">
+		<div class="car"></div>
+		<div class="point point--start">40  445</div>
+		<div class="point point--finish">1270 435</div>
+</div>
+
+<svg class="svg" width="1332" height="850">
+    <symbol id="roads">
+        <path d="M40,445	C40,445 1060,145	1060,145"
+          fill="transparent" stroke="black" stroke-width="10" id="bla" rx="50"/>
+    </symbol>
+  <use xlink:href="#roads" x="5" y="7"/>
+</svg>
+
+<!-- <svg class="svg2" width="1332" height="850">
+    <symbol id="roads2">
+        <path d="M1060,145	 C1060,145  1270,435	  1270,435"
+          fill="transparent" stroke="red" stroke-width="10" id="bla2" rx="50"/>
+    </symbol>
+  <use xlink:href="#roads2" x="5" y="7"/>
+</svg>
+<svg class="svg3" width="1332" height="850">
+  <symbol id="roads3">
+      <path d="M1270,435	 C1270,435 40,445 	40,445"
+        fill="transparent" stroke="blue" stroke-width="10" id="bla3" rx="50"/>
+  </symbol>
+  <use xlink:href="#roads3" x="5" y="7"/>
+</svg> -->
+
+<!-- <svg class="svg4" width="1332" height="850">
+  <symbol id="roads4">
+      <path d="M40,445	 C40,325 460,25	 1060,145"
+        fill="transparent" stroke="green" stroke-width="10" id="bla4" rx="50"/>
+  </symbol>
+  <use xlink:href="#roads4" x="5" y="7"/>
+</svg> -->
+
+
+<svg class="svg" width="1332" height="850">
+  <symbol id="lines">
+      <path d="M90,782	-10,107"
+        fill="transparent" stroke="yellow" stroke-width="3" id="line" rx="50"/>
+  </symbol>
+<use xlink:href="#lines" x="5" y="7"/>
+</svg>
+<svg class="svg" width="1332" height="850">
+  <symbol id="lines2">
+      <path d="M1320,336	1220,534 "
+        fill="transparent" stroke="blue" stroke-width="3" id="line2" rx="50"/>
+  </symbol>
+<use xlink:href="#lines2" x="5" y="7"/>
+</svg>
+<svg class="svg" width="1332" height="850">
+  <symbol id="lines3">
+      <path d="M1320,336	1220,534 "
+        fill="transparent" stroke="blue" stroke-width="3" id="line3" rx="50"/>
+  </symbol>
+<use xlink:href="#lines3" x="5" y="7"/>
+</svg>
+
+
+	<button type="button" class="startButton">Start randomizing cities</button>	
+	<button type="button" class="start">Finding a good way...</button>
+	<button type="button" class="buildRoads">Build the roads</button>	
+	<div class="display"></div>
+	<button type="button" class="goCar">Go car!</button>
+	
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<script src="scripts.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+</body>
+</html>
+

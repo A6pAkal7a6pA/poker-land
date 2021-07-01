@@ -1,0 +1,16 @@
+.photos {
+  margin: 20;
+  width: 1028px;
+  min-height: 560px;
+  background-color: yellow;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.photo {
+  width: 126px;
+  height: 55px;
+  margin: 10px;
+  cursor: pointer;
+}

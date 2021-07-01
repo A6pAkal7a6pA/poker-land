@@ -1,0 +1,83 @@
+body {
+  margin: 0px;
+  } 
+
+.field {
+  position: relative;
+  width: 1332px;
+  min-height: 850px;
+  background-color: yellow;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-color: green;
+}
+.point {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  background: url('img/point.png');
+  background-size: 55px 55px;
+  font-size: 45px;
+  color: red;
+}
+.point--start {
+  top: 425px;
+  left: 20px;
+}
+.point--finish {
+  top: 415px;
+  left: 1250px;
+}
+.point--between {
+  top: 125px;
+  left:1040px;
+}
+.road {
+  height: 20px;
+  background-color: black;
+  position: absolute;
+}
+.svg {
+  position: absolute;
+  top: 0px;
+}
+.svg2,
+.svg3,
+.svg4 {
+  position: absolute;
+  top: 0px;
+  z-index: 12;
+}
+.car {
+  z-index: 2;
+  position: absolute;
+  top: 425px;
+  left: 20px;
+  display: none;
+  width: 40px;
+  height: 30px;
+  background: url(img/car.png);
+  background-size: cover;
+  /*animation: run 4s ease-in-out;*/
+}
+.visual {
+  display: block;
+}
+.dusplay {
+  display: inline;
+  font-size: 15px;
+  color: green;
+}
+
+@keyframes run {
+  from {
+    top: 425px;
+    left: 20px;
+  }
+  to {
+    top: 425px;
+    left: 1250px;
+  }
+}
