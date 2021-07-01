@@ -91,4 +91,13 @@ inputs.forEach((element) => {
 			left(element)		 	
 		}
 	})
-})
+});
+
+const swiper = new Swiper('.swiper-container', {
+	spaceBetween: 10,
+	pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+		clickable: true,
+  },
+});
