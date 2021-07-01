@@ -943,3 +943,16 @@ body {
 .swiper-pagination-bullet-active {
 	background: white;
 }
+.download {
+	margin-top: 30px;
+	width: 100%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.download span {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 700;
+	cursor: pointer;
+}
